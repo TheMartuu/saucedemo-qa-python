@@ -9,7 +9,7 @@ from selenium.webdriver.common.keys import Keys
 
 
 #Create Class for test case 
-class using_unittest1(unittest.TestCase): 
+class failed_login_test(unittest.TestCase): 
     def setUp(self): 
         """Set up driver as parameter """
         self.driver = webdriver.Firefox()
