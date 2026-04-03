@@ -14,10 +14,10 @@ saucedemo_qa/
 ├── __init__.py
 │
 └── tests/
-    ├── login_page.py        # Page Object Model for the login screen
-    ├── inventory_page.py    # Page Object Model for the products page
-    ├── test_login.py        # Login test cases
-    └── test_inventory.py    # Inventory test cases
+    ├── login_test.py            #normal login
+    ├── login_failed_test.py     #login with wrong credentials 
+    ├── empty_password_test.py   #login with empty credentials 
+    └── empty_login_test.py      #login with empty password field
 ```
 
 ---
