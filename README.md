@@ -17,7 +17,8 @@ saucedemo_qa/
     ├── login_test.py            #normal login
     ├── login_failed_test.py     #login with wrong credentials 
     ├── empty_password_test.py   #login with empty credentials 
-    └── empty_login_test.py      #login with empty password field
+    ├── empty_login_test.py      #login with empty password field
+    └── locked_user_test.py      #login with locked user 
 ```
 
 ---
