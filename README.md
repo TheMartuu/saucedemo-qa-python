@@ -19,7 +19,9 @@ saucedemo_qa/
     ├── empty_password_test.py   #login with empty credentials 
     ├── empty_login_test.py      #login with empty password field
     ├── locked_user_test.py      #login with locked user
-    └── inventory_quantity_test.py  #test inventory items displayed on page 
+    ├── inventory_quantity_test.py  #test inventory items displayed on page
+    ├── sort_items_test.py       #sort items by A-Z and by Z-A
+    └── add_to_cart_test.py      #add items to cart and check the value
 ```
 
 ---
