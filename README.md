@@ -14,17 +14,18 @@ saucedemo_qa/
 ├── __init__.py
 │
 └── tests/
-    ├── login_test.py            #normal login
-    ├── login_failed_test.py     #login with wrong credentials 
-    ├── empty_password_test.py   #login with empty credentials 
-    ├── empty_login_test.py      #login with empty password field
-    ├── locked_user_test.py      #login with locked user
-    ├── inventory_quantity_test.py  #test inventory items displayed on page
-    ├── sort_items_test.py       #sort items by A-Z and by Z-A
-    ├── add_to_cart_test.py      #add items to cart and check the value
-        │
-        └── workflows/
-        ├── __init__.py      
+    ├── add_to_cart_test.py         # add items to cart and check the value
+    ├── empty_login_test.py         # login with empty username field
+    ├── empty_password_test.py      # login with empty password field
+    ├── inventory_quantity_test.py  # test inventory items displayed on page
+    ├── locked_user_test.py         # login with locked user
+    ├── login_failed_test.py        # login with wrong credentials
+    ├── login_test.py               # normal login
+    ├── sort_items_test.py          # sort items by A-Z and by Z-A
+    │
+    └── workflows/
+        ├── __init__.py      ← este necesitás agregar
+        └── test_checkout.py   
 ```
 
 ---
