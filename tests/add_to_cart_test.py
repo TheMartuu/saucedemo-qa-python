@@ -33,10 +33,10 @@ class Add_to_cart(unittest.TestCase):
         add_to_cart_buttons[0].click()
 
         #Get cart badge 
-        cart_badge = driver.find_element(By.XPATH,'//*[@id="shopping_cart_container"]/a/span')
+        cart_badge = driver.find_element(By.CLASS_NAME, "shopping_cart_badge")
 
         #Assert value in cart badge 
-        assert(cart_badge,1)
+        self.assertEqual("1",cart_badge.text)
     def tearDown(self):
         """Close browser """
         self.driver.close()
