@@ -25,7 +25,7 @@ saucedemo_qa/
     ├── sort_items_test.py          # sort items by A-Z and by Z-A
     │
     └── workflows/
-        ├── __init__.py      ← este necesitás agregar
+        ├── __init__.py     
         └── test_checkout.py   
 ```
 
