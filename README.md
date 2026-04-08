@@ -15,6 +15,7 @@ saucedemo_qa/
 │
 └── tests/
     ├── add_to_cart_test.py         # add items to cart and check the value
+    ├── badge_change_test.py        # check that badge disappears when deleting item from cart
     ├── empty_login_test.py         # login with empty username field
     ├── empty_password_test.py      # login with empty password field
     ├── inventory_quantity_test.py  # test inventory items displayed on page
