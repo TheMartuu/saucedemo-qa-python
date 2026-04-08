@@ -25,6 +25,7 @@ class Inventory_sort(unittest.TestCase):
         password.send_keys('secret_sauce')
         password.send_keys(Keys.ENTER)
 
+
         #Get drop down 
         product_sort = Select(driver.find_element(By.CLASS_NAME,'product_sort_container'))
         product_sort.select_by_value('az')
