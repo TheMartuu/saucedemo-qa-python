@@ -21,7 +21,10 @@ saucedemo_qa/
     ├── locked_user_test.py      #login with locked user
     ├── inventory_quantity_test.py  #test inventory items displayed on page
     ├── sort_items_test.py       #sort items by A-Z and by Z-A
-    └── add_to_cart_test.py      #add items to cart and check the value
+    ├── add_to_cart_test.py      #add items to cart and check the value
+        │
+        └── workflows/
+        ├── __init__.py      
 ```
 
 ---
