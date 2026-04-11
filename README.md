@@ -26,7 +26,10 @@ saucedemo_qa/
     │
     └── workflows/
         ├── __init__.py     
-        └── test_checkout.py   
+        ├── complete_workflow_test.py    #test complete workflow, from login until checkout
+        ├── empty_checkout_data_test.py  #tests if empty checkout data cannot be empty 
+        └── sum_items_test.py            #tests if products sum in checkout are calculated correctly
+   
 ```
 
 ---
