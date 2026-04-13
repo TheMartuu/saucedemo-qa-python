@@ -54,13 +54,13 @@ pytest tests/
 
 Run a specific file:
 ```bash
-pytest tests/test_login.py
-pytest tests/test_inventory.py
+pytest tests/login_test.py 
+pytest tests/sort_items_test.py 
 ```
 
 Run a single test:
 ```bash
-pytest tests/test_login.py::TestLogin::test_successful_login
+pytest tests/login_test.py ::TestLogin::test_successful_login
 ```
 
 ---
