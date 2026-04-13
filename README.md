@@ -25,7 +25,8 @@ saucedemo_qa/
     ├── sort_items_test.py          # sort items by A-Z and by Z-A
     │
     └── workflows/
-        ├── __init__.py     
+        ├── __init__.py
+        ├── checkout_multiple_items.py   #Tests if multiple items are added to checkout      
         ├── complete_workflow_test.py    #test complete workflow, from login until checkout
         ├── empty_checkout_data_test.py  #tests if empty checkout data cannot be empty 
         └── sum_items_test.py            #tests if products sum in checkout are calculated correctly
