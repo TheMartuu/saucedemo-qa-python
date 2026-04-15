@@ -34,13 +34,16 @@ class login_test(unittest.TestCase):
 
         #Assert URL change after logging in 
         self.assertIn("inventory.html", driver.current_url)
+        
         #Assert that products are displayed 
         products_title = driver.find_element(By.CLASS_NAME, "title")
         self.assertEqual("Products", products_title.text)        
 
-    def tearDown(self): #para que esta función cierre el navegador hay que nombrarla 'tearDown'
+    def tearDown(self): 
+        """Close browser"""
         self.driver.close()
-#Para que se ejecute la clase: 
+
+#Execute test: 
 if __name__ == '__main__':
     unittest.main()
 
